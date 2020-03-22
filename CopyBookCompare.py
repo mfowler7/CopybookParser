@@ -5,3 +5,6 @@ class CopyBookCompare:
 
     def compare_copybook_with_data(self):
         pass
+
+    def display_first_line(self):
+        pass
