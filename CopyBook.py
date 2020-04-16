@@ -1,6 +1,5 @@
 class CopyBook:
     def __init__(self, copybook_path):
-        # Every '05' Level Record in a Copybook
         self.copybook_fields = []
         # Use current directory for testing
         self.copybook_path = copybook_path
