@@ -12,4 +12,4 @@ class CopyBookField:
         self.default_fields = []
 
     def to_string(self):
-        return "{}   {}   {}".format(self.level, self.name, self.pic_value)
+        return f"{self.level}   {self.name}   {self.pic_value}"

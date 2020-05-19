@@ -4,7 +4,11 @@ class CopyBookCompare:
         self.data_file = data_file
 
     def compare_copybook_with_data(self):
-        pass
+        for field in self.copybook.copybook_fields:
+            if field.name == "FILLER":
+                pass
+            else:
+                print(f"Field: {field.name}")
 
     def display_first_line(self):
         pass

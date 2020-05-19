@@ -68,7 +68,6 @@
 19.001  05 FILLER                        PIC X(1)      VALUE '|'.
 19.001  05 'XXX'-AH-HIERARCHY-ID         PIC X(8)      VALUE SPACES.
 19.001  05 FILLER                        PIC X(1)      VALUE '|'.
-
 19.001  05 'XXX'-AH-GROUP-ID             PIC X(8)      VALUE SPACES.
 19.001  05 FILLER                        PIC X(1)      VALUE '|'.
 19.001  05 'XXX'-STMT-ID                 PIC X(8)      VALUE SPACES.
